@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import HeaderItem from "./HeaderItem";
+import logo from "../images/logo.png";
 
 function Header() {
   return (
@@ -22,8 +23,8 @@ function Header() {
       </div>
       <Image
         className="object-contain"
-        src="https://links.papareact.com/ua6"
-        alt="Hulu logo"
+        src={logo}
+        alt="Logo"
         width={200}
         height={100}
       />
