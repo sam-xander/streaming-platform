@@ -1,10 +1,24 @@
-# Videe Streaming Platform
+# Streaming Platform
 
-The brief was to create a video streaming platform using data from [TMDB](https://www.themoviedb.org/), a movie database and API.
+The brief was to create a video streaming platform using data from [TMDB](https://www.themoviedb.org/), a movie database and REST API. Includes server-side rendering of data in each category and caching of images.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### View project [here](https://streaming-service-alpha.vercel.app/)
 
-## How to run
+#### Tech Stack:
+
+- [React](https://reactjs.org/) with [Next.js](https://nextjs.org/), bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+- Icons from [Heroicons](https://heroicons.com/)
+- Data from [TMDB](https://developers.themoviedb.org/3/getting-started/introduction) REST API
+- Styling with [Tailwind CSS](https://tailwindcss.com/)
+- Fully responsive UI with CSS grid and flexbox
+- DOM animation with [React Flip Move](https://github.com/joshwcomeau/react-flip-move)
+---
+
+![](/images/streaming-platform-screenshot.png)
+
+---
+
+### How to run
 
 First, run the development server:
 
